@@ -24,6 +24,7 @@ h1 {
     padding: 8px;
     font-weight: 700;
     letter-spacing: 4px;
+    
 }
 
 h2,
@@ -37,6 +38,11 @@ h6 {
 
 div {
     padding: 12px;
+}
+
+.bg-bee {
+    background: #eecc22 url(../img/bee2.png);
+
 }
 
 .img-responsive {
