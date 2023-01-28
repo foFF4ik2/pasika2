@@ -7,42 +7,39 @@ body {
     background: #fff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a {
-    line-height: 32px;
+navbar-brand {
+    font-size: 32px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    line-height: 24px;
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 42px;
     margin-bottom: 12px;
     padding: 8px;
     font-weight: 700;
-    letter-spacing: 4px;
-    
+    letter-spacing: 2px;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2, h3, h4, h5, h6 {
     margin-bottom: 24px;
     font-weight: 500;
 }
 
 div {
-    padding: 12px;
+    overflow: hidden;
+    padding: 8px;
 }
 
 .bg-bee {
     background: #eecc22 url(../img/bee2.png);
+}
 
+.rounded1 {
+    border-radius: 8px;
+    border: 1px solid #eee;
 }
 
 .img-responsive {
@@ -61,9 +58,9 @@ div {
 .col-md-10,
 .col-md-12 {
     border: 0px solid #ccc;
-/*     box-shadow: 0 2px 4px 0 #eee;
+    /*     box-shadow: 0 2px 4px 0 #eee;
     border-radius: 8px; */
-    padding: 1rem;
+    padding: 1.6rem;
 }
 
 #myBtn {

@@ -14,6 +14,6 @@ function scrollFunction() {
 
 // Когда пользователь нажимает на кнопку, прокрутите до верхней части документа
 function topFunction() {
-  document.body.scrollTop = 0; // Для Safari
-  document.documentElement.scrollTop = 0; // Для Chrome, Firefox, IE и Opera
-}
+    document.body.scrollTop = 0; // Для Safari
+    document.documentElement.scrollTop = 0; // Для Chrome, Firefox, IE и Opera
+  }
